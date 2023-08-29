@@ -27,7 +27,7 @@ hr{
 .tile{
     width: 48px;
     height: 48px;
-    border: 1 solid lightgrey;
+    border: 1px solid rgb(135, 124, 124);
     font-size: 20px;
     font-weight: bold;
     display: flex;

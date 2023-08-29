@@ -46,7 +46,16 @@ function setGame(){
         //appending number to numbers section
         document.getElementById("numbers").appendChild(number);
     }
+    //using for loop for the game
+    for (let g = 0; g < 9; g++){
+        for( let k = 0; k < 9; k++){
+            let tile = document.createElement("div");
+            tile.id = g.toString() + "-" + k.toString();
+            tile.classList.add("tile");
+            document.getElementById("game").append(tile);
 
-    
+        }
+    }
+
 
 }
