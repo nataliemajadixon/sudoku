@@ -1,0 +1,33 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(122, 132, 149);
+}
+
+hr{ 
+    width: 500px;
+} 
+
+#incorrect{
+    color: rgb(250, 89, 89);
+}
+
+#game{
+    width: 450px;
+    height: 450px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#numbers{
+    width: 450px;
+    height: 50px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
